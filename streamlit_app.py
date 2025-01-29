@@ -15,7 +15,7 @@ with st.expander('Data'):
   X_raw
   
   st.write('**Y**')
-  Y_raw= df.species
+  Y_raw = df.species
   Y_raw
 with st.expander('Data Visualization'):
   #"bill_length_mm","bill_depth_mm","flipper_length_mm","body_mass_g","sex"
@@ -61,7 +61,7 @@ target_mapper = {'Adelie' : 0,
 def target_encode(val):
   return target_mapper[val]
 
-y = y_raw.apply(target_encode)
+y = Y_raw.apply(target_encode)
 
 with st.expander('Data preparation'):
   st.write('**Encoded X (Input Penguin)**')
