@@ -3,9 +3,32 @@ import pandas as pd
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 
-st.title('Machine Learning App')
+# Halaman Utama
+st.set_page_config(page_title="Machine Learning - Penguin Species", layout="wide")
+st.title('Machine Learning App for Penguin Species Prediction')
 
-st.info('This is app builds a machine learning model')
+st.markdown("""<style>
+    .main-title {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #2c3e50;
+    }
+    .info-box {
+        background-color: #f4f6f8;
+        border-radius: 8px;
+        padding: 10px;
+    }
+    .sidebar-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+        color: #34495e;
+    }
+</style>
+<div class="main-title">Machine Learning App</div>
+""", unsafe_allow_html=True)
+
+st.info('This app predicts penguin species using a machine learning model created by Khairunnisa Aulia Rahma.')
+st.caption("Contact: khairunnisaauliarahma7785@gmail.com")
 
 with st.expander('Data'):
   st.write('**Raw data**')
