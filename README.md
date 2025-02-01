@@ -22,6 +22,8 @@ Tujuan proyek ini adalah membuat dashboard interaktif untuk menganalisis data pr
 - Prediction Results: Display species prediction results for new data.
 
 ## Dashboard
+- <a href="https://dk-machinelearning.streamlit.app/">View Dashboard</a>
+![machine learning new](https://github.com/user-attachments/assets/100207d3-5dcf-414d-a477-86dc3c34ae25)
 
 ## Process
 1. Data Preparation: Verify and clean the dataset for missing values and inconsistencies.
