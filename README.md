@@ -1,11 +1,9 @@
-# 📦 Machine Learning App
-Machine Learning app
+# 📦 Penguin Species Prediction Data Analytics Dashboard (With Streamlit)
 
-## Demo App
+## Project Objective
+Tujuan proyek ini adalah membuat dashboard interaktif untuk menganalisis data prediksi spesies penguin menggunakan model machine learning. Dashboard ini akan membantu peneliti dan pengguna memahami pola data, kinerja model, dan faktor-faktor yang mempengaruhi prediksi spesies penguin.
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://dk-machinelearning.streamlit.app/)
-
-## GitHub Codespaces
+## Dataset Used
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/app-starter-kit?quickstart=1)
 
